@@ -3,6 +3,8 @@
 Created on Wed Aug 19 12:08:52 2020
 
 @author: TimboSlicerr
+
+Tracks the Prices of Selected CryptoCurrencies from CoinBase, and periodically saves the data to a csv file
 """
 
 
@@ -36,9 +38,9 @@ import math
 import os
 from pytz import timezone
 
-key = '7f455603112d89b05310af3879599877'
-b64secret = 'yhfzBqZzbO7QYdpfp36hpsZqeyOj5urPqULj8uPNZgPCFsjvhn9tMhmEnITpRBZ0J17S/DeqQWXZ1LOWigYKYQ=='
-passphrase = 'iluvtycrypto78$M'
+key = ''
+b64secret = ''
+passphrase = ''
 
 auth_client = cbpro.AuthenticatedClient(key, b64secret, passphrase)
 
