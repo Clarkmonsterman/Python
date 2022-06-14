@@ -1,6 +1,13 @@
 
 
+"""
 
+Module that Calculates Weighted Momentum Variables for Optimizing Buying and Selling Crpytcurrency with respect to each market 
+(Bull, Mini-Bull, Bear, and Mini-Bear) type
+Using a Gradient Ascent Model and MultiProcessing to Optimize the Use of CPU cores on the computer.
+
+Custom Paramaters for Test Data Set, Training Data Set, Step Sizes, Learning Rate, and importing previously optimized parameters to test on new data sets
+"""
 
 
 
