@@ -2,7 +2,7 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+This is a module that can take an csv or text file and tokenize all the words within the file into it's appropriate part of speech 
 """
 
 import os
